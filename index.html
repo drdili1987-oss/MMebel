@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munosib Mebel - Har bir uy uchun munosib tanlov</title>
+    <!-- CSS & Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Meta tags for SEO & Theme -->
+    <meta name="description" content="Munosib Mebel - Sifatli va buyurtma asosida premium mebel ishlab chiqaruvchi ishonchli brend. Yangiyo'l, O'zbekiston.">
+    <meta name="theme-color" content="#FAF8F5">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="container navbar-container">
+            <a href="index.html" class="logo">Munosib<span>Mebel.</span></a>
+            
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link active">Bosh sahifa</a>
+                <a href="about.html" class="nav-link">Biz haqimizda</a>
+                <a href="catalog.html" class="nav-link">Katalog</a>
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+                <a href="reviews.html" class="nav-link">Sharhlar</a>
+                <a href="contact.html" class="nav-link">Aloqa</a>
+                <!-- Language Toggle (Simulated) -->
+                <a href="#" class="nav-link" style="font-weight:700; color:var(--color-accent)">UZ</a>
+                <a href="order.html" class="btn btn-primary" style="margin-left: 1rem;">Buyurtma berish</a>
+            </nav>
+
+            <button class="mobile-menu-btn" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section section-dark" style="min-height: 100vh; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; padding-top: var(--header-height);">
+        <!-- Background Overlay / Image Placeholder -->
+        <div style="position: absolute; top:0; left:0; width:100%; height:100%; background: linear-gradient(rgba(62,47,38,0.7), rgba(62,47,38,0.4)), url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=2000') no-repeat center center/cover; z-index: 0;"></div>
+        
+        <div class="container text-center fade-up" style="position: relative; z-index: 1;">
+            <p style="color: var(--color-accent); font-weight: 600; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 1rem;">Premium Mebel Fabrikasi</p>
+            <h1 class="h1-cinematic" style="color: #fff; margin-bottom: 1.5rem;">Har bir uy uchun <br> munosib tanlov.</h1>
+            <p class="subtitle dark mb-4" style="color: #e0e0e0; font-size: 1.25rem;">Orzuingizdagi shinamlik va hashamatni biz bilan uyingizga olib kiring. Sifat, ishonch va uzoq yillik xotirjamlik.</p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="catalog.html" class="btn btn-primary">Katalogni ko'rish</a>
+                <a href="portfolio.html" class="btn btn-secondary light">Bizning ishlarimiz</a>
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div style="position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%); animation: bounce 2s infinite; color: #fff; z-index: 1;">
+            <p style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 5px; opacity: 0.7;">Pastga</p>
+            <i class="fas fa-chevron-down" style="font-size: 1.2rem; color: var(--color-accent);"></i>
+        </div>
+    </section>
+
+    <!-- TRUST INDICATORS (Feaures) -->
+    <section class="section section-light" id="features">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; text-align: center;">
+                <div class="fade-up" style="transition-delay: 0.1s; padding: 2rem; border-radius: 8px; background: #fff; box-shadow: 0 10px 30px rgba(0,0,0,0.03);">
+                    <i class="fas fa-medal" style="font-size: 3rem; color: var(--color-accent); margin-bottom: 1.5rem;"></i>
+                    <h3 style="font-size: 1.25rem; margin-bottom: 1rem;">Premium Sifat</h3>
+                    <p style="color: var(--color-text-light);">Faqat eng yuqori sifatli materiallar va mustahkam furnituralardan foydalanamiz.</p>
+                </div>
+                <div class="fade-up" style="transition-delay: 0.2s; padding: 2rem; border-radius: 8px; background: #fff; box-shadow: 0 10px 30px rgba(0,0,0,0.03);">
+                    <i class="fas fa-users" style="font-size: 3rem; color: var(--color-accent); margin-bottom: 1.5rem;"></i>
+                    <h3 style="font-size: 1.25rem; margin-bottom: 1rem;">10,000+ Mijozlar</h3>
+                    <p style="color: var(--color-text-light);">Yillar davomida minglab oilalarning uylarini shinamlikka to'ldirdik.</p>
+                </div>
+                <div class="fade-up" style="transition-delay: 0.3s; padding: 2rem; border-radius: 8px; background: #fff; box-shadow: 0 10px 30px rgba(0,0,0,0.03);">
+                    <i class="fas fa-shield-alt" style="font-size: 3rem; color: var(--color-accent); margin-bottom: 1.5rem;"></i>
+                    <h3 style="font-size: 1.25rem; margin-bottom: 1rem;">Kafolatlangan Xizmat</h3>
+                    <p style="color: var(--color-text-light);">O'rnatish va uzoq muddatli kafolat xizmatlari bilan xotirjamlik sari.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURED CATEGORIES -->
+    <section class="section">
+        <div class="container">
+            <div class="text-center mb-4 fade-up">
+                <h2 class="h2-section">Bizning mebellar</h2>
+                <p class="subtitle" style="margin-top: 1rem;">Yashash tarzingizga mos keladigan noyob dizaynlar.</p>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                <!-- Category 1 -->
+                <a href="kitchens.html" class="category-card reveal-overlay fade-up" style="display: block; position: relative; border-radius: 8px; overflow: hidden; height: 400px; text-decoration: none;">
+                    <img src="https://images.unsplash.com/photo-1556910103-1c02745a872f?auto=format&fit=crop&q=80&w=800" alt="Oshxona mebellari" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.8s ease;">
+                    <div style="position: absolute; bottom: 0; left: 0; width: 100%; padding: 2rem; background: linear-gradient(transparent, rgba(62,47,38,0.9)); color: #fff;">
+                        <h3 style="color: #fff; margin-bottom: 0.5rem; font-size: 1.5rem;">Oshxona</h3>
+                        <p style="color: var(--color-accent); font-weight: 500; font-size: 0.9rem;">Batafsil ko'rish <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></p>
+                    </div>
+                </a>
+                
+                <!-- Category 2 -->
+                <a href="bedrooms.html" class="category-card reveal-overlay fade-up" style="display: block; position: relative; border-radius: 8px; overflow: hidden; height: 400px; text-decoration: none; transition-delay: 0.1s;">
+                    <img src="https://images.unsplash.com/photo-1505693416388-bc2c08c4a631?auto=format&fit=crop&q=80&w=800" alt="Yotoqxona mebellari" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.8s ease;">
+                    <div style="position: absolute; bottom: 0; left: 0; width: 100%; padding: 2rem; background: linear-gradient(transparent, rgba(62,47,38,0.9)); color: #fff;">
+                        <h3 style="color: #fff; margin-bottom: 0.5rem; font-size: 1.5rem;">Yotoqxona</h3>
+                        <p style="color: var(--color-accent); font-weight: 500; font-size: 0.9rem;">Batafsil ko'rish <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></p>
+                    </div>
+                </a>
+
+                <!-- Category 3 -->
+                <a href="wardrobes.html" class="category-card reveal-overlay fade-up" style="display: block; position: relative; border-radius: 8px; overflow: hidden; height: 400px; text-decoration: none; transition-delay: 0.2s;">
+                    <img src="https://images.unsplash.com/photo-1595526114035-0d45ed16c29e?auto=format&fit=crop&q=80&w=800" alt="Zamonaviy Shkaflar" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.8s ease;">
+                    <div style="position: absolute; bottom: 0; left: 0; width: 100%; padding: 2rem; background: linear-gradient(transparent, rgba(62,47,38,0.9)); color: #fff;">
+                        <h3 style="color: #fff; margin-bottom: 0.5rem; font-size: 1.5rem;">Shkaflar</h3>
+                        <p style="color: var(--color-accent); font-weight: 500; font-size: 0.9rem;">Batafsil ko'rish <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></p>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="text-center mt-4" style="margin-top: 3rem;">
+                <a href="catalog.html" class="btn btn-secondary">To'liq katalogni ko'rish</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="section section-dark text-center" style="position: relative; overflow: hidden;">
+        <!-- Simple modern pattern background -->
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.05; background-image: radial-gradient(circle at center, #fff 1px, transparent 1px); background-size: 20px 20px;"></div>
+        
+        <div class="container fade-up" style="position: relative; z-index: 1;">
+            <h2 style="font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 1.5rem; color: #fff;">Sizning orzuingizdagi uyni <br> <span style="color: var(--color-accent);">birgalikda yaratamiz</span>.</h2>
+            <p class="subtitle dark mb-4">Sotuvchi va mutaxassislarimiz bilan bepul maslahatlashish uchun hoziroq bog'laning.</p>
+            <a href="order.html" class="btn btn-primary" style="padding: 1.25rem 3rem; font-size: 1.1rem;">Bepul maslahat olish</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col reveal-overlay fade-up">
+                    <h3 class="logo" style="color: #fff; margin-bottom: 1rem;">Munosib<span>Mebel.</span></h3>
+                    <p style="max-width: 300px;">Har bir xonadon uchun yuqori sifatli, estetik va uzoq yillik mebellar ishlab chiqarish fabrikasi.</p>
+                    <div style="display: flex; gap: 1rem; margin-top: 1.5rem;">
+                        <a href="#" style="display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.1); color: #fff; transition: background 0.3s;"><i class="fab fa-instagram"></i></a>
+                        <a href="#" style="display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.1); color: #fff; transition: background 0.3s;"><i class="fab fa-telegram"></i></a>
+                        <a href="#" style="display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.1); color: #fff; transition: background 0.3s;"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col fade-up" style="transition-delay: 0.1s;">
+                    <h4>Sahifalar</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Bosh sahifa</a></li>
+                        <li><a href="about.html">Biz haqimizda</a></li>
+                        <li><a href="catalog.html">Katalog</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="reviews.html">Sharhlar</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col fade-up" style="transition-delay: 0.2s;">
+                    <h4>Mijozlar uchun</h4>
+                    <ul class="footer-links">
+                        <li><a href="order.html">Buyurtma berish</a></li>
+                        <li><a href="#">Kafolat holati</a></li>
+                        <li><a href="#">Yetkazib berish</a></li>
+                        <li><a href="#">To'lov usullari</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col fade-up" style="transition-delay: 0.3s;">
+                    <h4>Aloqa</h4>
+                    <ul class="footer-links" style="line-height: 2;">
+                        <li><i class="fas fa-map-marker-alt" style="color: var(--color-accent); width: 20px;"></i> Yangiyo'l shahri, Birodarlar ko'chasi 141-uy</li>
+                        <li><i class="fas fa-phone-alt" style="color: var(--color-accent); width: 20px;"></i> <a href="tel:+998333733933">+998 33 373 39 33</a></li>
+                        <li><i class="fas fa-envelope" style="color: var(--color-accent); width: 20px;"></i> <a href="mailto:info@munosibmebel.uz">info@munosibmebel.uz</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom fade-up" style="transition-delay: 0.4s;">
+                <p>&copy; 2026 Munosib Mebel. Barcha huquqlar himoyalangan.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Add custom styles for the category card hover effect -->
+    <style>
+        .category-card:hover img {
+            transform: scale(1.05);
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0) translateX(-50%); }
+            40% { transform: translateY(-20px) translateX(-50%); }
+            60% { transform: translateY(-10px) translateX(-50%); }
+        }
+        /* Fix for scrollbar causing layout shift */
+        html { overflow-y: scroll; scrollbar-width: thin; scrollbar-color: var(--color-accent) var(--color-bg); }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: var(--color-bg); }
+        ::-webkit-scrollbar-thumb { background-color: var(--color-accent); border-radius: 4px; }
+    </style>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
